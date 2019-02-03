@@ -1,0 +1,73 @@
+
+<html >
+<head>
+<title>Portfolio</title>
+<link rel="icon" href="majorproject/flipkart_icon-icons.com_62718.png" />
+<style type="text/css">
+  ul li{
+        display:inline;
+		font-size:22px;
+		padding-right:100px;
+		color:#fff;
+		}
+
+td {
+  padding-right:50px;
+  padding-left:50px;
+  }
+wrap{
+  position:absolute;
+  width:30%;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+   }
+search{
+  width:100%;
+  position:relative;
+  }
+  searchterm{
+  float:left;
+  width:100%;
+  border: 3px solid#00b4cc;
+  padding:11px ;
+  font-size:17px;
+  outline:none;
+  }
+  searchbtn{
+  position:absolute;
+  width:50px;
+  height:50px;
+  border:1px solid #00B4CC;
+  background-color:#00B4CC;
+  text-align:center;
+  color:#fff;
+  cursor:pointer;
+  font-size:20px;
+  }
+    </style>
+</head>
+
+<body>
+<div style="background:#6699FF" heigth:50px>
+<div style="margin-top:5px;margin-left:15px;float:left;">
+<img style="width:15%" src="majorproject/flipkart_icon-icons.com_62718.png" />
+</div>
+<div class="wrap">
+ <div class="search">
+   <input type="text" class="searchterm" name="" placeholder="search for the product,brands and more">
+   <button type="button" class="searchbtn">search </button>
+   </div>
+  </div>
+  <div align="center">
+     <ul style="padding-top:30px; font-family:'Agency FB';">
+			<li style="font-size:15px"><b>Login&signup </b></li>
+            <li style="font-size:15px"><b> <details><summary> more </summary><table ><tr> <td> <font color="#000000">sell on flipkart</font></td></tr><tr> <td> <font color="#000000">24x7 customer care </font></td></tr><tr> <td> <font color="#000000">advertise</font></td></tr><tr> <td> <font color="#000000">download app !</font></td></tr></table></details></b></li>
+			<li style="font-size:15px"><b>cart </b></li>
+
+	</ul> 
+</div>
+</div>
+
+</body>
+</html>
