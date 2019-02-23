@@ -9,27 +9,81 @@ table, th, td {
 }
 p.detail { color:#000000;font-weight:bold;font-family:Tahoma;font-size:35}
 span.name { color:#008000;font-weight:bold;font-family:Tahoma;font-size:35}
+  .education_details{
+    width: 70%;
+}
+.education_details div{
+    background: white;
+    padding: 10px;
+    margin: 40px 0px 40px 0px;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.education_details div p{
+    padding: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #efefef;
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.education_details .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+#main_pointer{
+   width: 50px;
+   height: 50px;
+   left: -27px;
+   border-radius: 25px; 
+}
+#main_pointer img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.education_container{
+    display: flex;
+    flex-flow: row;
+}
+.timeline{
+    margin-left: 10%;
+    border-left: 4px solid  #242424;
+}
 </style>
 </head>
 <body bgcolor="#808080">
 <center><p class="detail">EDU<span class="name">CA</span>TION</p><br>
 </center>
 
-<center><h1> Mallareddy College of Engineering and technology </h1></center>
-2019<br>
+<div class="education_container" id="education_container">
+                <div class="timeline">
+                    <div class="pointer" id="main_pointer"><img src="school.svg" alt=""></div>
 
-
-Currently pursuing by btech(3rd year) in Mallareddy College of Engineering and Technology with CGPA 7.88.<td>
-
-
-<center><h1> SRI CHAITANYA JR COLLEGE </h1></center>
-
-2016<br>
-I have completed my intermediate in MPC at Hyderabad under Telangana board of intermediate with aggregate 92%<td>
-
-<center><h1> ANJALI HIGH SCHOOL </h1></center>
-
-2014<br>
-I have completed my schooling at Suryapet under Telangana board of intermediate with CGPA 9.2
+                </div>
+                <div class="education_details">
+                    <p class="title">Education</p>
+                    <div class="btech">
+                        <p>Mallareddy college of engineering and technology</p>
+                        <p>2016-2020</p>
+                        <p>Currently, I'm pursuing my graduation in computer science and engineering. Till now I have obtained 80% of aggregate alongside some knowledge as a full-stack developer. </p>
+                    </div>
+                    <div class="inter">
+                        <p>SRI CHAITANYA jr college</p>
+                        <p>2016</p>
+                        <p>I've completed my intermediate in MPC at hyderabad under Telangana Board of Intermediate Education with an aggregate of 92. </p>
+                    </div>
+                    <div class="schooling">
+                        <p>ANJALI SCHOOL OF EXCELLENCE</p>
+                        <p>2014</p>
+                        <p>I have completed my 10th standard under Andhrapradesh state board-SSC with an aggregate of 92%. </p>
+                    </div>
+                </div>
+            </div>
 </body>
 </html>
